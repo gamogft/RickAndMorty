@@ -30,7 +30,7 @@ struct RMCharactersListView: View {
                     VStack(spacing: 0) {
                         Image(uiImage: UIImage(named: "RickAndMortyLogo", in: .main, with: .none)!)
                             .resizable()
-                            .frame(height: 300)
+                            .frame(height: 250)
                         Divider()
                         ScrollView {
                             LazyVStack(spacing: 15) {

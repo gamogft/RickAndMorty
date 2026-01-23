@@ -36,9 +36,10 @@ struct RMCharacterCardView: View {
                         .frame(width: 10, height: 10)
                         .foregroundStyle(RMCharacterCardView.getStatusColor(status))
                     Text(status.rawValue + " - " + species)
-                        .font(Font.title3)
+                        .font(Font.subheadline)
                 }
-                .padding(.top, 5)
+                .padding(.top, 3)
+                
                 Text("Last known location:")
                     .font(Font.headline)
                     .foregroundStyle(.gray)
